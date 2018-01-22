@@ -28,7 +28,7 @@ Ajax以外のプログラミングはJavaScriptの練習として、可能な限
 2、ローカルに保存したHTMLファイルをウェブブラウザで開く。  
 **※図書館API、yahoo API のkeyはご自身のkeyをご使用願います**
 ## デモサイトURL（ポートフォリオURL）
-[http://s-fukushima.sakura.ne.jp/web_api_google_maps.html](http://s-fukushima.sakura.ne.jp/web_api_google_maps.html "ポートフォリオURL")
+[http://s-fukushima.sakura.ne.jp/web_api_library.html](http://s-fukushima.sakura.ne.jp/web_api_library.html "ポートフォリオURL")
 
 ***
 ***
@@ -62,4 +62,4 @@ Component file/
 2、this local files open to web browser.  
 **You must use your key of yahoo API and library API.**
 ## URL of Demo site(URL of my portfolio site)
-[http://s-fukushima.sakura.ne.jp/web_api_google_maps.html](http://s-fukushima.sakura.ne.jp/web_api_google_maps.html "URL of my portfolio site")
+[http://s-fukushima.sakura.ne.jp/web_api_library.html](http://s-fukushima.sakura.ne.jp/web_api_library.html "URL of my portfolio site")
