@@ -1,33 +1,32 @@
-# 住所検索サイト
+# 図書館検索サイト
 ## 概要
-* Ajax(jQuery),google maps APIを利用した住所検索サイトになります
+* Ajax(jQuery),図書館API、yahoo map APIを利用した図書館の場所を検索出来るサイトになります
 * レスポンシブル対応
 * ポートフォリオ用サイト
 ## 説明
-Ajax(jQuery),google maps APIを利用し、郵便番号から住所を検索し、その住所周辺の地図を表示させる事ができるサイトになります。  
-Ajax以外のプログラミングはJavaScriptの練習として、jQueryを使用せずにコーディングしました。  
+Ajax(jQuery),図書館API、yahoo map APIを利用し、都道府県毎の図書館を検索し、その図書館周辺のmapとofficialサイトを表示出来るようにしました。  
+Ajax以外のプログラミングはJavaScriptの練習として、可能な限りjQueryを使用せずにコーディングしました。  
 フリーですので必要な方はご自由に使用願います。  
-**※google API のkeyはご自身のkeyをご使用願います**
+**※図書館API、yahoo API のkeyはご自身のkeyをご使用願います**  
 ## ファイルの構成
 ```
 ファイルの構成/
 ├─ README.md
 ├─ jQuery_base                                               # jQuery保存フォルダー
 ├─ fonts                                                     # webフォント(Font Awesome)保存フォルダー
-├─ img                                                       # 画像保存フォルダー
-├─ web_api_google_maps.html                                  # トップページ（自身でコーディング）
+├─ web_api_library.html                                      # トップページ（自身でコーディング）
 ├─ css/
-|    └─ web_api_google_maps                                  # CSS保存フォルダー(Font Awesomeのcss保存)
+|    └─ web_api_library                                      # CSS保存フォルダー(Font Awesomeのcss保存)
 |           ├─ img                                           # 画像保存フォルダー（cssに埋込む用）
-|           └─ web_api_google_maps.css                       # CSSファイル（自身でコーディング）
+|           └─ web_api_library.css                           # CSSファイル（自身でコーディング）
 └─ js/
-    └─ web_api_google_maps                                   # jsファイル保存フォルダー
-           └─ web_api_google_maps.js                         # jsファイル（自身でコーディング）   
+    └─ web_api_library                                       # jsファイル保存フォルダー
+           └─ wweb_api_library.js                            # jsファイル（自身でコーディング）   
 ```
 ## インストール方法
 1、全てのファイルをフォークし、ローカルにクローンを作成。  
 2、ローカルに保存したHTMLファイルをウェブブラウザで開く。  
-**※google API のkeyはご自身のkeyをご使用願います**
+**※図書館API、yahoo API のkeyはご自身のkeyをご使用願います**
 ## デモサイトURL（ポートフォリオURL）
 [http://s-fukushima.sakura.ne.jp/web_api_google_maps.html](http://s-fukushima.sakura.ne.jp/web_api_google_maps.html "ポートフォリオURL")
 
