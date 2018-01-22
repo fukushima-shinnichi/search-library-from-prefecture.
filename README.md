@@ -40,7 +40,7 @@ Ajax以外のプログラミングはJavaScriptの練習として、可能な限
 * correspondence of responsive design.
 * my web design skill is this web site.
 ## Description
-if you selected prefecture, you can check this library map and this library official site..   
+if you selected prefecture, you can check this library map and this library official site.   
 **You must use your key of yahoo API and library API.**
 ## Component file
 ```
