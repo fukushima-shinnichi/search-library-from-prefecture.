@@ -7,7 +7,7 @@ $(function(){
   $("#btn_search").on("click",function(){
       
       var beforeURL = "http://api.calil.jp/library?appkey=";
-      var myKey = "{f0d8e57f777d7f6c3c9512e94ea6a699}";
+      var myKey = "your library api key";
       var afterKey = "&pref=";
       var prefecture = $("#pre").val();
       var afterURL ="&format=json&callback=";
@@ -74,7 +74,7 @@ $(function(){
       
       var post_code = $("#Data_save").data("postal_code_" + $(this).attr("id"));
       var after_URL = "https://map.yahooapis.jp/search/zip/V1/zipCodeSearch?query=";
-      var before_URL = "&appid=dj00aiZpPTFXV2tqaUpEQ1FWTCZzPWNvbnN1bWVyc2VjcmV0Jng9YzU-&output=json";
+      var before_URL = "&appid= your yahoo id &output=json";
       
       $.ajax({
         
