@@ -1,0 +1,264 @@
+/*******   top   *****************/
+body {
+  background-image: url(img/main_image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site_area {
+  width: 800px;
+  margin: 30px auto;
+  /*border: solid 5px rgba(255,255,255,0.8);*/
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+/***********   title   ****************/
+h1 {
+  font-family: 'Supermercado One', cursive;
+  font-size: 60px;
+  margin: 30px;
+  text-align: center;
+  color: rgba(0,0,0,0.9);
+}
+
+/**********   search library name   *****************/
+label {
+  position: relative;
+}
+
+/*
+label::before {
+  position: absolute;
+  top: -15px;
+  left: 350px;
+  font-size: 40px;
+  font-family: FontAwesome;
+  content: "\f150";
+  pointer-events: none;
+  color: rgba(0,0,0,0.8);
+}
+*/
+
+.fa-caret-square-o-down {
+  position: absolute;
+  top: -15px;
+  left: 350px;
+  font-size: 40px;
+  pointer-events: none;
+  color: rgba(0,0,0,0.8);
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  font-size: 30px;
+  width: 300px;
+  background-color: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,0.6);
+  margin: 30px 100px;
+  cursor: pointer;
+}
+
+select:hover {
+  background-color: rgba(135,206,250,0.4);
+  font-weight: bold;
+  color: rgba(255,255,0,0.8);
+}
+
+/********   button   **************/
+#btn_search {
+  cursor: pointer;
+  width: 190px;
+  border: solid 5px rgba(255,255,0,0.8);
+  border-radius: 10px;
+  color: rgba(255,255,0,0.8);
+  background-color: rgba(135,206,250,0.8);
+  font-family: 'Supermercado One', cursive;
+  font-size: 40px;
+}
+
+#btn_search:hover {
+  border: solid 5px rgba(135,206,250,1);
+  color: rgba(135,206,250,1);
+  background-color: rgba(255,255,0,0.8);
+  font-weight: bold;
+}
+
+/********   library name   ***********/
+.library_name_area {
+  margin-bottom: 50px;
+}
+
+.library_name {
+  margin: 10px 50px;
+  font-size: 20px;
+  color: rgba(0,0,0,0.7);
+  cursor: pointer;
+}
+
+.library_name:hover {
+  font-weight: bold;
+  color: rgba(65,105,225,0.8);
+}
+
+/**********   map_link_area   **********/
+#grayLayer {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128,128,128,0.5);
+}
+
+.map_link_area {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 700px;
+  background-color: rgba(255,255,255,0.8);
+  display: none;
+  border-radius: 25px;
+  margin: -350px 0px 0px -350px;
+}
+
+/********   map   *********/
+#map {
+  display: none;
+  width: 500px;
+  height: 500px;
+  margin: 0px 100px 0px 100px;
+  border-radius: 25px;
+}
+
+/********   button close map   *********/
+#delete {
+  background-color: none;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+  margin: 10px 0px 0px 625px;
+  color: rgba(0,0,0,0.8);
+}
+
+#delete:hover {
+  color: rgba(255,255,0,0.8);
+  font-weight: bold;
+}
+
+/*********   link    *****************/
+.link {
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgba(255,255,0,0.8);
+  background-color: rgba(135,206,250,0.8);
+  font-family: 'Supermercado One', cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgba(135,206,250,1);
+  background-color: rgba(255,255,0,0.8);
+  font-weight: bold;
+}
+
+.map_link_area p {
+  margin: 40px 0px 0px 256.5px;
+}
+
+
+/*************   smart phone css   ******************/
+
+@media screen and (max-width:767px){
+  
+/*******   top   *****************/
+body {
+  background-image: url(img/main_image_smart_phone.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.site_area {
+  width: 360px;
+}
+
+/***********   title   ****************/
+h1 {
+  margin: 30px 0px 200px 0px;
+  font-size: 50px;
+  
+}
+
+/**********   search library name   *****************/
+.fa-caret-square-o-down {
+  position: absolute;
+  top: -15px;
+  left: 280px;
+}
+  
+
+select {
+  margin: 30px 30px;
+}
+
+/********   button   **************/
+#btn_search {
+  margin: 30px 80px;
+}
+
+/********   library name   ***********/
+.library_name {
+  width: 300px;
+  margin: 10px 30px;
+}
+
+/**********   map_link_area   **********/
+.map_link_area {
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  width: 360px;
+  height: auto;
+  margin: 30px 0px 0px -180px
+}
+
+/********   map   *********/
+#map {
+  width: 300px;
+  height: 300px;
+  margin: 0px 30px;
+}
+
+/********   button close map   *********/
+#delete {
+  margin: 10px 0px 0px 274px
+}
+
+/*********   link    *****************/
+.map_link_area p {
+  margin: 40px 0px 0px 86.5px;
+}
+  
+
+}
+
+
+/**********   google fonts   ***********/
+/*
+font-family: 'Supermercado One', cursive;
+font-family: 'Bree Serif', serif;
+*/
+
