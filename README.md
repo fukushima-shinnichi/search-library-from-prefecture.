@@ -33,34 +33,33 @@ Ajax以外のプログラミングはJavaScriptの練習として、可能な限
 ***
 ***
 
-# Website of search address from postal code
+# Website of search library from prefecture
 ## Overview
-* this this website concept is search address from postal code.
-* using Ajax(jQuey) and google maps API.
+* this this website concept is can search address of library and can see the official site URL from prefecture.
+* using Ajax(jQuey) and library API, yahoo maps API.
 * correspondence of responsive design.
 * my web design skill is this web site.
 ## Description
-If you enter postal code, you search this address and can show map.   
-**You must use your key of google API.**
+if you selected prefecture, you can check this library map and this library official site..   
+**You must use your key of yahoo API and library API.**
 ## Component file
 ```
 Component file/
 ├─ README.md
 ├─ jQuery_base                                               # folder of jQuery files.
 ├─ fonts                                                     # folder of web fonts.(saving in this folder at Font Awesome.)
-├─ img                                                       # folder of images. 
-├─ web_api_google_maps.html                                  # Top page.（my coding）
+├─ web_api_library.html                                      # Top page.（my coding）
 ├─ css/
-|   └─ web_api_google_maps                                   # folder of css(saving in this folder at css of Font Awesome.)
+|   └─ web_api_library                                       # folder of css(saving in this folder at css of Font Awesome.)
 |          ├─ img                                            # folder of images.（image of this folder enter to css.）
-|          └─ web_api_google_maps.css                        # file of top page css.（my coding）
+|          └─ web_api_library.css                            # file of top page css.（my coding）
 └─ js/
-    └─ web_api_google_maps                                   # folder of js.
-           └─ web_api_google_maps.js                         # file of top page js.(my coding)
+    └─ web_api_library                                       # folder of js.
+           └─ web_api_library.js                             # file of top page js.(my coding)
 ```
 ## Install
 1、all files do fork and this all files do clone in local.  
 2、this local files open to web browser.  
-**You must use your key of google API.**
+**You must use your key of yahoo API and library API.**
 ## URL of Demo site(URL of my portfolio site)
 [http://s-fukushima.sakura.ne.jp/web_api_google_maps.html](http://s-fukushima.sakura.ne.jp/web_api_google_maps.html "URL of my portfolio site")
