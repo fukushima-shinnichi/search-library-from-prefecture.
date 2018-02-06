@@ -21,7 +21,7 @@ Ajax以外のプログラミングはJavaScriptの練習として、可能な限
 |           └─ web_api_library.css                           # CSSファイル（自身でコーディング）
 └─ js/
     └─ web_api_library                                       # jsファイル保存フォルダー
-           └─ wweb_api_library.js                            # jsファイル（自身でコーディング）   
+           └─ web_api_library.js                            # jsファイル（自身でコーディング）   
 ```
 ## インストール方法
 1、全てのファイルをフォークし、ローカルにクローンを作成。  
@@ -35,7 +35,7 @@ Ajax以外のプログラミングはJavaScriptの練習として、可能な限
 
 # Website of search library from prefecture
 ## Overview
-* this this website concept is can search address of library and can see the official site URL from prefecture.
+* this website concept is can search address of library and can see the official site URL from prefecture.
 * using Ajax(jQuey) and library API, yahoo maps API.
 * correspondence of responsive design.
 * my web design skill is this web site.
